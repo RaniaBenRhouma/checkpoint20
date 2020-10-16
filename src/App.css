@@ -1,0 +1,49 @@
+.none{
+    display:none;
+}
+
+/* ***********************Task *************************************   */
+
+.tasksDescript{
+    font-size: 1cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.editform{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.taskDiv{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+/***************************************** AddTask *********************************************/
+.inputTasks{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+/********************************************** ListTask *****************************************/
+
+.buttonsDoes{
+    display:flex;
+    justify-content: space-around;
+    border: 1px solid grey;
+}
+.returnedList{
+    display : block;
+    justify-content: space-between;
+    background-color: rgb(238, 231, 231);
+}
+
+/********************************************** App **************************************************/
+
+.App{
+    width: 100%;
+    text-align: center;
+    background-image: url("https://st3.depositphotos.com/11585370/19462/i/950/depositphotos_194624794-stock-photo-horizontal-flat-top-view-of.jpg");
+    background-size: cover;
+
+}
